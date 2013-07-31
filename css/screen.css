@@ -280,6 +280,7 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 #blog a            {background-position:0 -25px;}
 #program a         {background-position:0 -50px;}
 #history a         {background-position:0 -75px;}
+#testimonials a    {background-position:0 -75px;}
 #press a           {background-position:0 -100px;}
 #partners a        {background-position:0 -125px;}
 #faculty a         {background-position:0 -150px;}
@@ -288,16 +289,17 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 #eform a           {background-position:0 -225px;}
 #video a           {background-position:0 -250px;}
 
-#home a:hover      {background-position:-160px 0;}
-#blog a:hover      {background-position:-160px -25px;}
-#program a:hover   {background-position:-160px -50px;}
-#history a:hover   {background-position:-160px -75px;}
-#press a:hover     {background-position:-160px -100px;}
-#partners a:hover  {background-position:-160px -125px;}
-#faculty a:hover   {background-position:-160px -150px;}
-#support a:hover   {background-position:-160px -175px;}
-#eform a:hover     {background-position:-160px -225px;}
-#video a:hover     {background-position:-160px -250px;}
+#home a:hover         {background-position:-160px 0;}
+#blog a:hover         {background-position:-160px -25px;}
+#program a:hover      {background-position:-160px -50px;}
+#history a:hover      {background-position:-160px -75px;}
+#testimonials a:hover {background-position:-160px -75px;}
+#press a:hover        {background-position:-160px -100px;}
+#partners a:hover     {background-position:-160px -125px;}
+#faculty a:hover      {background-position:-160px -150px;}
+#support a:hover      {background-position:-160px -175px;}
+#eform a:hover        {background-position:-160px -225px;}
+#video a:hover        {background-position:-160px -250px;}
 
 .press-pdf {float:left; width:154px;}
 .pdf-thumb {border:1px solid #999;}
@@ -367,3 +369,22 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
   list-style: none; 
   margin: 0;
   }
+  
+/* TESTIMONIALS PAGE */
+div.quotes {
+  border-bottom: 1px solid #5B1269;
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+}
+
+div.quotes p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+div.quotes p.byline {
+  color: #5B1269;
+  font-size: 12px;
+  line-height: 15px;
+  text-indent: -12px;
+}
