@@ -258,133 +258,39 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 .footer {margin-left:-14px;width:938px;background:#666 url('../images/footer_bkg.gif') left top no-repeat;padding:30px 0 40px;}
 .footer p {float:right;color:#232323;}
 
-.header    {height:137px;background:url('../images/header.jpg') -200px top no-repeat;}
-.content   {padding-top:32px;min-height:500px;} 
-.navcol    {padding-top:36px;}
+.header 	{height:137px;background:url('../images/header.jpg') -200px top no-repeat;}
+.content	{padding-top:32px;min-height:500px;} 
+.navcol		{padding-top:36px;}
+.navcol    	{background:url('../images/nav_bkg.gif')left top no-repeat;}
 
 
 .logocol {background:url('../images/header.jpg') left top no-repeat;}
 h1.logo {position:relative; top:32px; left:56px; width:95px;height:292px;background:url('../images/bmorefit_logo_large.gif') no-repeat;text-indent:-9999px;overflow:hidden;}
 
-h1     {font-size:2.3em;font-weight:bold;letter-spacing:-.01em;color:#571165;}
-h2    {font-size:1.33em;font-weight:bold;}
-p     {font-size:1.083em;line-height:1.385em;color:#525252;}
-.small   {font-size:0.9167em;line-height:1.636em;}
+h1 		{font-size:2.3em;font-weight:bold;letter-spacing:-.01em;color:#571165;}
+h2		{font-size:1.33em;font-weight:bold;}
+p 		{font-size:1.083em;line-height:1.385em;color:#525252;}
+.small 	{font-size:0.9167em;line-height:1.636em;}
 
-.nav    {margin-left:11px;padding:0;list-style:none;}
-.nav li    {margin:0;padding:0;}
-.nav li a,
-.nav li#break   {display:block;height:25px;text-indent:-9999px;overflow:hidden;background-image:url('../images/nav1.png');width:160px;}
+.nav		{margin-left:19px;padding:0;list-style:none;}
+.nav li		{margin:0;padding:0;}
+.nav li a 	{display:block;height:25px;text-indent:-9999px;overflow:hidden;background-image:url('../images/nav1.png');}
 
-#home a            {background-position:0 0;}
-#blog a            {background-position:0 -25px;}
-#program a         {background-position:0 -50px;}
-#history a         {background-position:0 -75px;}
-#testimonials a    {background-position:0 -75px;}
-#press a           {background-position:0 -100px;}
-#partners a        {background-position:0 -125px;}
-#faculty a         {background-position:0 -150px;}
-#support a         {background-position:0 -175px;}
-#break             {background-position:-160px -200px;}
-#eform a           {background-position:0 -225px;}
-#video a           {background-position:0 -250px;}
+#home a		{width:58px;  background-position:0 0;}
+#program a	{width:134px; background-position:0 -25px;}
+#history a	{width:134px; background-position:0 -50px;}
+#press a	{width:55px;  background-position:0 -75px;}
+#partners a	{width:93px;  background-position:0 -100px;}
+#faculty a 	{width:97px;  background-position:0 -125px;}
+#support a	{width:85px;  background-position:0 -150px;}
 
-#home a:hover         {background-position:-160px 0;}
-#blog a:hover         {background-position:-160px -25px;}
-#program a:hover      {background-position:-160px -50px;}
-#history a:hover      {background-position:-160px -75px;}
-#testimonials a:hover {background-position:-160px -75px;}
-#press a:hover        {background-position:-160px -100px;}
-#partners a:hover     {background-position:-160px -125px;}
-#faculty a:hover      {background-position:-160px -150px;}
-#support a:hover      {background-position:-160px -175px;}
-#eform a:hover        {background-position:-160px -225px;}
-#video a:hover        {background-position:-160px -250px;}
+#home a:hover		{background-position:-150px 0;}
+#program a:hover	{background-position:-150px -25px;}
+#history a:hover	{background-position:-150px -50px;}
+#press a:hover		{background-position:-150px -75px;}
+#partners a:hover	{background-position:-150px -100px;}
+#faculty a:hover	{background-position:-150px -125px;}
+#support a:hover	{background-position:-150px -150px;}
 
 .press-pdf {float:left; width:154px;}
 .pdf-thumb {border:1px solid #999;}
-
-/* BMoreFit Updates (by kristian.bjornard@gmail.com) */
-/* EForm.html styles */
-
-.ss-required-asterisk {color:#DA340E;}
-
-.ss-form {
-  margin-top: 24px;
-}
-
-.errorbox-good {
-  clear:both;
-  color: #666;
-  font-size: 120%;
-  margin: 0 0 12px 0;
-  width: 430px;
-}
-
-.ss-item {
-  border-bottom: 1px solid #DDD;
-  padding: 0 0 12px 0;
-}
-.ss-section-header {
-  border-bottom: none;
-  margin: 12px 0 0 0;
-  padding: 0;
-}
-
-.ss-text {
-  width: 430px;
-}
-
-.ss-paragraph-text {
-  border-bottom: none;
-  padding: 0;
-  width: 430px;
-}
-
-.ss-text label {
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 120px;
-}
-
-.ss-text input {
-  display: block;
-  margin: 0;
-  padding: 0;
-  width: 306px;
-}
-
-.ss-paragraph-text textarea {
-  height: 60px; 
-  width: 418px;
-}
-
-.ss-navigate input {
-  font-size: 200%;
-}
-
-.ss-checkbox ul { 
-  list-style: none; 
-  margin: 0;
-  }
-  
-/* TESTIMONIALS PAGE */
-div.quotes {
-  border-bottom: 1px solid #5B1269;
-  padding: 20px 0;
-  margin: 0 0 20px 0;
-}
-
-div.quotes p {
-  font-size: 16px;
-  line-height: 20px;
-}
-
-div.quotes p.byline {
-  color: #5B1269;
-  font-size: 12px;
-  line-height: 15px;
-  text-indent: -12px;
-}
