@@ -304,9 +304,33 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 .press-pdf {float:left; width:154px;}
 .pdf-thumb {border:1px solid #999;}
 
-/* BMoreFit Updates (by kristian.bjornard@gmail.com) */
-/* EForm.html styles */
+/* BMoreFit Updates (by Kristian Bjornard kb@ookb.co) */
+/* faculty page updates */
+.quiet.border-top {
+  border-top: 1px solid #5B1269; 
+  margin-top: 50px;
+  padding-top: 20px;
+}
 
+.faculty.bio {
+  margin: 30px 0;
+  padding-top: 15px;
+}
+
+.faculty.bio:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.faculty .image-col {
+  margin:.4em 20px 0 0;
+}
+
+.faculty p {
+  margin-left: 170px;
+}
+
+/* EForm.html styles */
 .ss-required-asterisk {color:#DA340E;}
 
 .ss-form {
@@ -375,6 +399,11 @@ div.quotes {
   border-bottom: 1px solid #5B1269;
   padding: 20px 0;
   margin: 0 0 20px 0;
+}
+
+div.quotes:last-of-type {
+  border-bottom: none;
+  margin: 0;
 }
 
 div.quotes p {
