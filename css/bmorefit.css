@@ -1,0 +1,12 @@
+html, body { background: #7B4480; color: #454545; }
+
+header, main { background: #F8F8F8; }
+
+header { padding-top: 60px; }
+
+footer { margin-top: 30px; color: #d6b7d9; font-weight: normal; }
+
+/**/
+
+.flexible img {width: 100%; max-width: 100%;}
+
