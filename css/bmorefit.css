@@ -4,9 +4,12 @@ header, main { background: #F8F8F8; }
 
 header { padding-top: 60px; }
 
-footer { margin-top: 30px; color: #d6b7d9; font-weight: normal; }
+main { padding-bottom: 30px;}
+
+footer { margin-top: 60px; color: #d6b7d9; font-weight: normal; }
 
 /**/
 
+.flexible { margin-bottom: 30px; }
 .flexible img {width: 100%; max-width: 100%;}
 
