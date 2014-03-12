@@ -22,7 +22,7 @@
         
         <p class="lead">Some short clips for a quick and fun exercise break.</p>
         
-        <ul id="jsonlist" class="json-gen item-list">
+        <ul class="json-gen item-list">
           <!-- we'll be generating the fittips document download list here -->
         </ul>
 
@@ -66,7 +66,7 @@
     // print out menu automatically for these pages...
     $.getJSON('json/exerciseclips.json', function(data) { 
       $.each(data.exerciseclips, function(data) {
-        $('ul#jsonlist').append('<li><a href="' + this["link"] + '"><img src="images/clips/' + this["thumb"] + '" /></a><a href="' + this["link"] + '">' + this["name"] + '</a></li>');
+        $('ul.json-gen').append('<li><a href="' + this["link"] + '"><img src="images/clips/' + this["thumb"] + '" /></a><a href="' + this["link"] + '">' + this["name"] + '</a></li>');
       });
     });
   </script>
