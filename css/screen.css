@@ -474,30 +474,45 @@ div.quotes p.byline {
 /** ********************************* **/
 /** ********************************* **/
 
-p.lead { font-size: 1.5em; margin-bottom: .75em; }
-
-div.fittips.biglink {
-  background: #FAD73B;
+div.biglink {
   position: relative;
-  top: 52px;
   left: 52px; 
   height: 105px;
   width: 105px;
   border-radius: 555px;
   transition: all 500ms ease;
-  box-shadow: 0px 0px 7px 0px #454545;
+  box-shadow: 0px 0px 6px 0px #454545;
+}
+
+div.biglink:hover {
+  box-shadow: 0px 0px 4px 0px #999;
+}
+
+p.lead { font-size: 1.5em; margin-bottom: .75em; }
+
+div.fittips {
+  background: #FAD73B;
+  top: 52px;
+}
+
+div.exerciseclips {
+  background: #6FBEFF;
+  top: 72px;
 }
 
 .table      { display: table; height: 100%; width: 100%; margin: 0; padding: 0; text-align: center; vertical-align: middle; }
 .table-cell { display: table-cell; height: 100%; width: 100%; margin: 0; padding: 0; text-align: center; vertical-align: middle; }
 
-div.fittips.biglink a {
-  font-size: 250%;
+div.biglink a {
+  font-size: 200%;
   font-weight: bold;
-  color: #454545;
   text-decoration: none;
   line-height: .9;
   transition: all 500ms ease;
+}
+
+div.fittips a {
+  color: #454545;
 }
 
 div.fittips.biglink:hover {
@@ -509,7 +524,7 @@ div.fittips.biglink a:hover {
   color: white;
 }
 
-#fittips {
+ul.json-gen.item-list {
   border-top: 3px solid #17051B;
   margin: .5em 0 2em 0;
   padding: 0;
@@ -517,18 +532,20 @@ div.fittips.biglink a:hover {
   font-size: 1.5em;
 }
 
-#fittips li {
+ul.json-gen.item-list li {
   border-bottom: 1px solid #999;
 }
 
-#fittips li a {
+ul.json-gen.item-list li a {
   color: #17051B;
   display: block;
   padding: 6px 10px;
   text-decoration: none;
 }
 
-#fittips li a:hover {
+ul.json-gen.item-list li a:hover {
   color: #5B1269;
   background: #eee;
 }
+
+
