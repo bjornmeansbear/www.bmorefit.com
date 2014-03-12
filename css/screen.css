@@ -548,4 +548,5 @@ ul.json-gen.item-list li a:hover {
   background: #eee;
 }
 
+ul.json-gen.item-list li img { display: inline-block; vertical-align: middle; }
 
