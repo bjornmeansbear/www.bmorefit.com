@@ -3,27 +3,27 @@
         {
             "name": "Shake Break",
             "link": "http://www.youtube.com/watch?v=zl5QodAFuVk",
-            "thumb": "thumb.png"
+            "thumb": "shake.png"
         },
         {
             "name": "The Sid Shuffle",
             "link": "http://www.youtube.com/watch?v=uMuJxd2Gpxo",
-            "thumb": "thumb.png"
+            "thumb": "sid.png"
         },
         {
             "name": "shake my sillies out",
             "link": "http://www.youtube.com/watch?v=m2lJTVGq-kI",
-            "thumb": "thumb.png"
+            "thumb": "sillies.png"
         },
         {
             "name": "I like to move it move it",
             "link": "http://www.youtube.com/watch?v=PQX9tCaq1S4",
-            "thumb": "thumb.png"
+            "thumb": "moveit.png"
         },
         {
             "name": "I'm a gummy Bear",
             "link": "http://www.youtube.com/watch?v=MxDz3aE0LZw",
-            "thumb": "thumb.png"
+            "thumb": "gummy.png"
         }
     ]
 }
