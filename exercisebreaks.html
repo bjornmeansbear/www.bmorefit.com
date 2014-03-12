@@ -18,11 +18,11 @@
       <div class="span-18 last header">
       </div>
       <div class="span-11 append-1 content">
-        <h1>Fit Tips</h1>
+        <h1>Exercise Clips</h1>
         
-        <p class="lead">Helpful tips and information.</p>
+        <p class="lead">Some short exercise clips.</p>
         
-        <ul id="fittips" class="json-gen item-list">
+        <ul id="jsonlist" class="json-gen item-list">
           <!-- we'll be generating the fittips document download list here -->
         </ul>
 
@@ -64,9 +64,9 @@
   <script src="https://code.jquery.com/jquery.js"></script>
   <script>
     // print out menu automatically for these pages...
-    $.getJSON('json/fittips.json', function(data) { 
-      $.each(data.fittips, function(data) {
-        $('ul#fittips').append('<li><a href="fittips/' + this["link"] + '">' + this["name"] + '</a></li>');
+    $.getJSON('json/exerciseclips.json', function(data) { 
+      $.each(data.exerciseclips, function(data) {
+        $('ul#jsonlist').append('<li><a href="' + this["link"] + '"><img src="images/clips/' + this["thumb"] + '" /></a><a href="' + this["link"] + '">' + this["name"] + '</a></li>');
       });
     });
   </script>
