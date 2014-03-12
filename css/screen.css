@@ -434,7 +434,7 @@ div.quotes p.byline {
   left: -100px;
   width: 270px;
   text-align: center;
-  box-shadow: 0px 0px 7px 0px black;
+  box-shadow: 0px 0px 7px 0px #454545;
 }
 
 #designedtomove .outer {
@@ -467,3 +467,43 @@ div.quotes p.byline {
 #designedtomove p a:hover { color: #9FD067; text-decoration: underline; }
 
 #designedtomove img {width: 150px; margin: 10px auto;}
+
+/** ********************************* **/
+/** ********************************* **/
+/** The Beginnings of a Fit Tips page **/
+/** ********************************* **/
+/** ********************************* **/
+
+div.fittips.biglink {
+  background: #FAD73B;
+  position: relative;
+  top: 52px;
+  left: 52px; 
+  height: 105px;
+  width: 105px;
+  border-radius: 555px;
+  transition: all 500ms ease;
+  box-shadow: 0px 0px 7px 0px #454545;
+}
+
+.table      { display: table; height: 100%; width: 100%; margin: 0; padding: 0; text-align: center; vertical-align: middle; }
+.table-cell { display: table-cell; height: 100%; width: 100%; margin: 0; padding: 0; text-align: center; vertical-align: middle; }
+
+div.fittips.biglink a {
+  font-size: 250%;
+  font-weight: bold;
+  color: #454545;
+  text-decoration: none;
+  line-height: .9;
+  transition: all 500ms ease;
+}
+
+div.fittips.biglink:hover {
+  background: #69A239;
+}
+
+div.fittips.biglink:hover a,
+div.fittips.biglink a:hover {
+  color: white;
+}
+
