@@ -263,7 +263,7 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 .navcol    {padding-top:36px;}
 
 
-.logocol {background:url('../images/header.jpg') left top no-repeat;}
+.logocol {background:url('../images/header.jpg') left top no-repeat; position: relative;}
 h1.logo {position:relative; top:32px; left:56px; width:95px;height:292px;background:url('../images/bmorefit_logo_large.gif') no-repeat;text-indent:-9999px;overflow:hidden;}
 
 h1     {font-size:2.3em;font-weight:bold;letter-spacing:-.01em;color:#571165;}
@@ -417,3 +417,53 @@ div.quotes p.byline {
   line-height: 15px;
   text-indent: -12px;
 }
+
+/** ************************ **/
+/** ************************ **/
+/** Designed to move sidebar **/
+/** ************************ **/
+/** ************************ **/
+
+#designedtomove {
+  background: #454545;
+  background: rgba(69,69,69,1);
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  top: 40px;
+  left: -100px;
+  width: 270px;
+  text-align: center;
+  box-shadow: 0px 0px 7px 0px black;
+}
+
+#designedtomove .outer {
+  padding: 20px;
+}
+
+#designedtomove h2,
+#designedtomove p,
+#designedtomove p a,
+#designedtomove h3 {
+  color: white;
+}
+
+#designedtomove h2 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  line-height: 1.33;
+}
+
+#designedtomove h2 span:first-of-type {
+  color: #FFFFC2;
+}
+
+#designedtomove h2 span:last-of-type {
+  color: #9FD067;
+}
+
+#designedtomove p a { text-transform: uppercase; letter-spacing: 1px; }
+#designedtomove p a:hover { color: #9FD067; text-decoration: underline; }
+
+#designedtomove img {width: 150px; margin: 10px auto;}
