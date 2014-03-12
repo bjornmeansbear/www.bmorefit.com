@@ -504,7 +504,6 @@ div.exerciseclips {
 .table-cell { display: table-cell; height: 100%; width: 100%; margin: 0; padding: 0; text-align: center; vertical-align: middle; }
 
 div.biglink a {
-  font-size: 200%;
   font-weight: bold;
   text-decoration: none;
   line-height: .9;
@@ -512,16 +511,22 @@ div.biglink a {
 }
 
 div.fittips a {
+  font-size: 250%;
   color: #454545;
 }
 
-div.fittips.biglink:hover {
+div.biglink:hover {
   background: #69A239;
 }
 
-div.fittips.biglink:hover a,
-div.fittips.biglink a:hover {
+div.biglink:hover a,
+div.biglink a:hover {
   color: white;
+}
+
+div.exerciseclips a {
+  font-size: 150%;
+  color: #454545;
 }
 
 ul.json-gen.item-list {
