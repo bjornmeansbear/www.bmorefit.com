@@ -474,6 +474,8 @@ div.quotes p.byline {
 /** ********************************* **/
 /** ********************************* **/
 
+p.lead { font-size: 1.5em; margin-bottom: .75em; }
+
 div.fittips.biglink {
   background: #FAD73B;
   position: relative;
@@ -507,3 +509,26 @@ div.fittips.biglink a:hover {
   color: white;
 }
 
+#fittips {
+  border-top: 3px solid #17051B;
+  margin: .5em 0 2em 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+#fittips li {
+  border-bottom: 1px solid #999;
+}
+
+#fittips li a {
+  color: #17051B;
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+#fittips li a:hover {
+  color: #5B1269;
+  background: #eee;
+}
