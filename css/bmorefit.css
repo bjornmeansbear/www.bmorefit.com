@@ -51,6 +51,7 @@ h1.border-bottom {
 .navcol {
   border-left: 15px solid #781D7E;
   height: 100%;
+  padding-bottom: 60px;
 }
 
 .navcol a {
@@ -69,4 +70,10 @@ h1.border-bottom {
   margin-right: -15px;
   border-radius: 0;
   padding-left: 30px;
+}
+
+.navcol ul.divide {
+  margin-top: 15px;
+  border-top: 1px solid;
+  padding-top: 15px;
 }
