@@ -273,35 +273,26 @@ h2    {font-size:1.33em;font-weight:bold;}
 p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 .small   {font-size:0.9167em;line-height:1.636em;}
 
-.nav    {margin-left:11px;padding:0;list-style:none;}
+.nav    {margin:0;padding:0;list-style:none;}
 .nav li    {margin:0;padding:0;}
-.nav li a,
-.nav li#break   {display:block;height:25px;text-indent:-9999px;overflow:hidden;background-image:url('../images/nav1.png');width:160px;}
+.nav li a {
+  color: white;
+  display:block;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 16px;
+  padding: 4px 7px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width:165px;
+  }
 
-#home a            {background-position:0 0;}
-#blog a            {background-position:0 -25px;}
-#program a         {background-position:0 -50px;}
-#history a         {background-position:0 -75px;}
-#testimonials a    {background-position:0 -75px;}
-#press a           {background-position:0 -100px;}
-#partners a        {background-position:0 -125px;}
-#faculty a         {background-position:0 -150px;}
-#support a         {background-position:0 -175px;}
-#break             {background-position:-160px -200px;}
-#eform a           {background-position:0 -225px;}
-#video a           {background-position:0 -250px;}
-
-#home a:hover         {background-position:-160px 0;}
-#blog a:hover         {background-position:-160px -25px;}
-#program a:hover      {background-position:-160px -50px;}
-#history a:hover      {background-position:-160px -75px;}
-#testimonials a:hover {background-position:-160px -75px;}
-#press a:hover        {background-position:-160px -100px;}
-#partners a:hover     {background-position:-160px -125px;}
-#faculty a:hover      {background-position:-160px -150px;}
-#support a:hover      {background-position:-160px -175px;}
-#eform a:hover        {background-position:-160px -225px;}
-#video a:hover        {background-position:-160px -250px;}
+.nav li a:hover {
+  background: white;
+  color: purple;
+}
 
 .press-pdf {float:left; width:154px;}
 .pdf-thumb {border:1px solid #999;}
