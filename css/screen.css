@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
 /* -----------------------------------------------------------------------
 
 
@@ -305,6 +307,11 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 .pdf-thumb {border:1px solid #999;}
 
 /* BMoreFit Updates (by Kristian Bjornard kb@ookb.co) */
+
+.add-top {
+  margin-top: 30px;
+}
+
 /* faculty page updates */
 .quiet.border-top {
   border-top: 1px solid #5B1269; 
