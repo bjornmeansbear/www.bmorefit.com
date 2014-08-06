@@ -264,7 +264,6 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 .content   {padding-top:32px;min-height:500px;} 
 .navcol    {padding-top:36px;}
 
-
 .logocol {background:url('../images/header.jpg') left top no-repeat; position: relative;}
 h1.logo {position:relative; top:32px; left:56px; width:95px;height:292px;background:url('../images/bmorefit_logo_large.gif') no-repeat;text-indent:-9999px;overflow:hidden;}
 
@@ -287,11 +286,17 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
   text-transform: uppercase;
   text-decoration: none;
   width:165px;
+  /**/
+  transition: all 300ms;
   }
 
 .nav li a:hover {
   background: white;
   color: purple;
+}
+
+.nav li.active a {
+  background: #a621c0;
 }
 
 .press-pdf {float:left; width:154px;}
@@ -326,6 +331,12 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 .faculty.bio:first-of-type {
   margin-top: 0;
   padding-top: 0;
+}
+
+.coach > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .faculty .image-col {
@@ -564,4 +575,11 @@ ul.json-gen.item-list li img { display: inline-block; vertical-align: middle; ma
 .faculty .headshot {
   float:left;
   margin:.4em 1.5em 0 0
+}
+
+ul.board,
+ul.board li,
+ul.board li p { 
+  margin: 0;
+  padding: 0;
 }
