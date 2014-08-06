@@ -315,6 +315,14 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
   padding-top: 15px;
 }
 
+.faculty.bio.coach {
+  float: left;
+  width: 50%;
+  padding-top: 0;
+  height: 280px;
+  overflow: hidden;
+}
+
 .faculty.bio:first-of-type {
   margin-top: 0;
   padding-top: 0;
@@ -553,3 +561,7 @@ ul.json-gen.item-list li a:hover {
 
 ul.json-gen.item-list li img { display: inline-block; vertical-align: middle; margin-right: 10px; }
 
+.faculty .headshot {
+  float:left;
+  margin:.4em 1.5em 0 0
+}
