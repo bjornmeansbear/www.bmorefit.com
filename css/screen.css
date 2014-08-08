@@ -261,10 +261,31 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 
 .header    {height:137px;background:url('../images/header.jpg') -200px top no-repeat;}
 .content   {padding-top:32px;min-height:500px;}
-.navcol    {padding-top:36px;}
+.navcol    {
+  margin-top: -137px;
+  background: #5B1269;
+  background: rgba(91,18,105,.75);
+  width: 138px;
+  padding-top: 172px;
+}
 
-.logocol {background:url('../images/header.jpg') left top no-repeat; position: relative;}
-h1.logo {position:relative; top:32px; left:56px; width:95px;height:292px;background:url('../images/bmorefit_logo_large.gif') no-repeat;text-indent:-9999px;overflow:hidden;}
+.logocol {
+  background: url('../images/header.jpg') left top no-repeat;
+  position: relative;
+}
+.logocol > a {
+  margin: 0 -10px 0 10px;
+  display: block;
+  text-align: center;
+  background: #F9F9F9;
+  padding-top: 30px;
+}
+h1.logo {
+  height:292px;
+  background:url('../images/bmorefit_logo_large.gif') center center no-repeat;
+  text-indent:-9999px;
+  overflow:hidden;
+}
 
 h1     {font-size:2.3em;font-weight:bold;letter-spacing:-.01em;color:#571165;}
 h2    {font-size:1.33em;font-weight:bold;}
@@ -284,7 +305,7 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
   padding: 4px 7px;
   text-transform: uppercase;
   text-decoration: none;
-  width:165px;
+  width:164px;
   /**/
   transition: all 300ms;
   }
@@ -302,6 +323,13 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 .pdf-thumb {border:1px solid #999;}
 
 /* BMoreFit Updates (by Kristian Bjornard kb@ookb.co) */
+
+p.lead {
+  font-size: 1.33em;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: .75em;
+}
 
 .add-top {
   margin-top: 30px;
