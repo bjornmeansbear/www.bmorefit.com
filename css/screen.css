@@ -363,6 +363,8 @@ p.lead {
 .coach > img {
   width: 100%;
   max-width: 100%;
+  width: calc(100% - 10px);
+  max-width: calc(100% - 10px);
   height: auto;
 }
 
