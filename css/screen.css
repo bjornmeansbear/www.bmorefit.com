@@ -2,7 +2,6 @@
 
 /* -----------------------------------------------------------------------
 
-
  Blueprint CSS Framework 0.8
  http://blueprintcss.org
 
@@ -261,7 +260,7 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 .footer p {float:right;color:#232323;}
 
 .header    {height:137px;background:url('../images/header.jpg') -200px top no-repeat;}
-.content   {padding-top:32px;min-height:500px;} 
+.content   {padding-top:32px;min-height:500px;}
 .navcol    {padding-top:36px;}
 
 .logocol {background:url('../images/header.jpg') left top no-repeat; position: relative;}
@@ -310,7 +309,7 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 
 /* faculty page updates */
 .quiet.border-top {
-  border-top: 1px solid #5B1269; 
+  border-top: 1px solid #5B1269;
   margin-top: 50px;
   padding-top: 20px;
 }
@@ -398,7 +397,7 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 }
 
 .ss-paragraph-text textarea {
-  height: 60px; 
+  height: 60px;
   width: 418px;
 }
 
@@ -406,11 +405,11 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
   font-size: 200%;
 }
 
-.ss-checkbox ul { 
-  list-style: none; 
+.ss-checkbox ul {
+  list-style: none;
   margin: 0;
   }
-  
+
 /* TESTIMONIALS PAGE */
 div.quotes {
   border-bottom: 1px solid #5B1269;
@@ -493,7 +492,7 @@ div.quotes p.byline {
 
 div.biglink {
   position: relative;
-  left: 52px; 
+  left: 52px;
   height: 105px;
   width: 105px;
   border-radius: 555px;
@@ -579,7 +578,40 @@ ul.json-gen.item-list li img { display: inline-block; vertical-align: middle; ma
 
 ul.board,
 ul.board li,
-ul.board li p { 
+ul.board li p {
   margin: 0;
   padding: 0;
 }
+
+a {
+  color: rgba(91,18,105,1);
+}
+
+ul.partners {
+  list-style: none;
+  margin: 0 0 0 -4px;
+  padding: 0;
+}
+
+ul.partners li a {
+  display: block;
+  padding: 2px 6px;
+  text-decoration: none;
+}
+
+ul.partners li a .fa {
+  visibility: hidden;
+}
+
+ul.partners li a:hover {
+  color: white;
+}
+
+ul.partners li:hover {
+  background: rgba(91,18,105,1);
+}
+
+ul.partners li:hover a .fa {
+  visibility: visible;
+}
+
