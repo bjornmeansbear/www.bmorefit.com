@@ -302,7 +302,7 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
   font-weight: normal;
   letter-spacing: 1px;
   line-height: 16px;
-  padding: 4px 7px;
+  padding: 7px;
   text-transform: uppercase;
   text-decoration: none;
   width:164px;
@@ -321,6 +321,19 @@ p     {font-size:1.083em;line-height:1.385em;color:#525252;}
 
 .press-pdf {float:left; width:154px;}
 .pdf-thumb {border:1px solid #999;}
+
+#press .entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#press .entries img {
+  max-width: 100%;
+}
+
+.border-bottom { border-bottom: 3px solid #666; }
+#press h2.border-bottom { margin-top: 2em; }
 
 /* BMoreFit Updates (by Kristian Bjornard kb@ookb.co) */
 
