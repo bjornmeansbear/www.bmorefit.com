@@ -630,6 +630,39 @@ a {
   color: rgba(91,18,105,1);
 }
 
+a.btn {
+  background: #9741BE;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  /**/
+  font-family: 'Slabo 27px', serif;
+  font-weight: normal;
+  font-size: 133%;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  /**/
+  transition: all 400ms;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+a.btn:hover {
+  background: #522267;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
 ul.partners li a .fa {
   visibility: hidden;
 }
