@@ -26,7 +26,12 @@
         <h1>Teacher Resources</h1>
 
         <h2 class="border-bottom">Brain Breaks</h2>
-        <iframe width="430" height="242" src="//www.youtube.com/embed/4WD01RMtloI?list=PLIhRkJVgVwAgLHSZvntXt2Wpwu_Y88iyl" frameborder="0" allowfullscreen></iframe>
+<!--         <iframe width="430" height="242" src="//www.youtube.com/embed/4WD01RMtloI?list=PLIhRkJVgVwAgLHSZvntXt2Wpwu_Y88iyl" frameborder="0" allowfullscreen></iframe> -->
+        <p class="lead">Some short clips for a quick and fun exercise break. (links to Youtube.com Videos)</p>
+
+        <ul class="json-gen item-list">
+          <!-- we'll be generating the fittips document download list here -->
+        </ul>
 
         <!-- Video 1 An Intro to Teachers -->
         <h2 class="border-bottom">Other Resources</h2>
@@ -54,6 +59,21 @@
     <p style="float:right;">Copyright &#169; 2014 Baltimore Fitness Academy</p>
   </div>
   </div>
+
+  <!-- ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- ================================================== -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script>
+    // print out menu automatically for these pages...
+    $.getJSON('json/brainbreaks.json', function(data) {
+      $.each(data.brainbreaks, function(data) {
+        $('ul.json-gen').append('<li><a href="' + this["link"] + '">' + this["name"] + '</a></li>');
+      });
+    });
+  </script>
+
 
   <!-- google analytics -->
   <script>
