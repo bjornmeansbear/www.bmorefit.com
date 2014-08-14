@@ -260,22 +260,20 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 .footer p {float:right;color:#232323;}
 
 .header    {
-  height:137px;
-/*   height:300px; */
+/*   height:137px; */
+  height:266px;
 /*   background: gray url('../images/header.jpg') -200px top no-repeat; */
-  background: gray url('../images/trialheader1.jpg') -200px center no-repeat;
+  background: transparent url('../images/trialheader2.jpg') -222px center no-repeat;
   }
 .content   {padding-top:32px;min-height:500px;}
 .navcol    {
-  margin-top: -137px;
+/*   margin-top: -137px; */
   background: #5B1269;
   background: rgba(91,18,105,.75);
   width: 138px;
-  padding-top: 172px;
-/*
-  margin-top: -300px;
-  padding-top: 330px;
-*/
+/*   padding-top: 172px; */
+  margin-top: -266px;
+  padding-top: 296px;
 }
 
 .logocol {
