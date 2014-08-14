@@ -685,3 +685,11 @@ ul.partners li:hover a .fa {
   margin-bottom: .25em;
 }
 
+.content dl dt {
+  width: 50%;
+  float: left;
+}
+
+.content dl dd {
+  margin-left: 60%;
+}
