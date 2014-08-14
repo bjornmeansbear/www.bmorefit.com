@@ -261,6 +261,7 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 
 .header    {
   height:137px;
+/*   height:300px; */
 /*   background: gray url('../images/header.jpg') -200px top no-repeat; */
   background: gray url('../images/trialheader1.jpg') -200px center no-repeat;
   }
@@ -271,6 +272,10 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
   background: rgba(91,18,105,.75);
   width: 138px;
   padding-top: 172px;
+/*
+  margin-top: -300px;
+  padding-top: 330px;
+*/
 }
 
 .logocol {
