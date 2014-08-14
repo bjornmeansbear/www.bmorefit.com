@@ -642,11 +642,11 @@ a.btn {
   color: white;
   display: block;
   margin: 20px auto;
-  padding: 15px;
+  padding: 12px;
   /**/
   font-family: 'Slabo 27px', serif;
   font-weight: normal;
-  font-size: 133%;
+  font-size: 120%;
   letter-spacing: 1px;
   text-align: center;
   text-decoration: none;
