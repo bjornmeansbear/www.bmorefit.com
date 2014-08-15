@@ -29,9 +29,17 @@
 <!--         <iframe width="430" height="242" src="//www.youtube.com/embed/4WD01RMtloI?list=PLIhRkJVgVwAgLHSZvntXt2Wpwu_Y88iyl" frameborder="0" allowfullscreen></iframe> -->
         <p class="lead">Some short clips for a quick and fun exercise break. (links to Youtube.com Videos)</p>
 
-        <ul class="json-gen item-list">
-          <!-- we'll be generating the fittips document download list here -->
-        </ul>
+        <section class="prek">
+          <ul class="json-gen item-list">
+            <!-- we'll be generating the fittips document download list here -->
+          </ul>
+        </section>
+
+        <section class="twofive">
+          <ul class="json-gen item-list">
+            <!-- we'll be generating the fittips document download list here -->
+          </ul>
+        </section>
 
         <!-- Video 1 An Intro to Teachers -->
         <h2 class="border-bottom">Other Resources</h2>
@@ -71,10 +79,16 @@
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery.js"></script>
   <script>
-    // print out menu automatically for these pages...
-    $.getJSON('json/brainbreaks.json', function(data) {
+    // print out videos...
+    $.getJSON('json/brainbreaks-prek.json', function(data) {
       $.each(data.brainbreaks, function(data) {
-        $('ul.json-gen').append('<li><a href="' + this["link"] + '">' + this["name"] + '</a></li>');
+        $('.prek ul.json-gen').append('<li><a href="' + this["link"] + '">' + this["name"] + '</a></li>');
+      });
+    });
+    // print out videos...
+    $.getJSON('json/brainbreaks-twofive.json', function(data) {
+      $.each(data.brainbreaks, function(data) {
+        $('.twofive ul.json-gen').append('<li><a href="' + this["link"] + '">' + this["name"] + '</a></li>');
       });
     });
   </script>
