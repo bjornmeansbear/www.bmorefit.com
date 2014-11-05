@@ -31,9 +31,11 @@ p  {color:#525252;}
 
 img.logo {
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
   max-width: 90%;
 }
+
+img { width: 100%; }
 
 h1.border-bottom {
   padding-bottom: 8px;
