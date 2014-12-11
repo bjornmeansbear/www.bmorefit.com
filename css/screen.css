@@ -231,7 +231,7 @@ div.colborder {padding-right:24px;margin-right:25px;border-right:1px solid #eee;
 .box {padding:1.5em;margin-bottom:1.5em;background:#E5ECF9;}
 hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:0 0 1.45em;border:none;}
 hr.space {background:#f8f8f8;color:#f8f8f8;}
-.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix::after, .container:after {content:" ";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
 
@@ -369,7 +369,7 @@ p.lead {
   overflow: hidden;
 }
 
-.content > .faculty.bio:first-of-type {
+.content >  .faculty.bio:first-of-type {
   margin-top: 0;
   padding-top: 0;
 }
@@ -589,7 +589,8 @@ div.exerciseclips a {
   color: #454545;
 }
 
-ul.item-list {
+ul.item-list,
+dl.item-list {
   border-top: 3px solid #522267;
   margin: .5em 0 2em 0;
   padding: 0;
@@ -597,7 +598,9 @@ ul.item-list {
   font-size: 1.5em;
 }
 
-ul.item-list li {
+ul.item-list li,
+dl.item-list dt,
+dl.item-list dd {
   border-bottom: 1px solid #999;
 }
 
@@ -687,10 +690,20 @@ section h3 {
 }
 
 .content dl dt {
-  width: 50%;
+  width: 70%;
   float: left;
 }
 
 .content dl dd {
-  margin-left: 60%;
+  float: left;
+  width: 30%;
+  text-align: right;
+  margin: 0;
+}
+
+.partners li,
+.content dl dt,
+.content dl dd {
+  padding: 5px 0;
+  box-sizing: border-box;
 }
