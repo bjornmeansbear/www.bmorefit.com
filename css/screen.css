@@ -369,7 +369,7 @@ p.lead {
   overflow: hidden;
 }
 
-.faculty.bio:first-of-type {
+.content > .faculty.bio:first-of-type {
   margin-top: 0;
   padding-top: 0;
 }
