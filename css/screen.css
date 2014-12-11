@@ -268,13 +268,7 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
   }
 .content   {padding-top:32px;min-height:500px;}
 .navcol    {
-/*   margin-top: -137px; */
-  background: #5B1269;
-  background: rgba(91,18,105,.75);
   width: 138px;
-/*   padding-top: 172px; */
-  margin-top: -266px;
-  padding-top: 296px;
 }
 
 .logocol {
