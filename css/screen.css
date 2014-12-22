@@ -261,10 +261,9 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 .footer p {float:right;color:#232323;}
 
 .header    {
-/*   height:137px; */
   height:266px;
-/*   background: gray url('../images/header.jpg') -200px top no-repeat; */
   background: transparent url('../images/trialheader2.jpg') -222px center no-repeat;
+  border-bottom: 2px solid rgba(91,18,105,1);
   }
 .content   {padding-top:32px;min-height:500px;}
 .navcol    {
