@@ -11,10 +11,10 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="container">  
+    <div class="container">
       <div class="span-5 logocol">
         <a href="index.html"><h1 class="logo">BMoreFit</h1></a>
-        
+
         <div class="fittips biglink">
           <div class="table">
              <div class="table-cell">
@@ -23,14 +23,14 @@
           </div>
         </div>
 
-      </div>  
+      </div>
       <div class="span-18 last header">
       </div>
       <div class="span-11 append-1 content">
         <h1>Exercise Breaks</h1>
-        
+
         <p class="lead">Some short clips for a quick and fun exercise break. (links to Youtube.com Videos)</p>
-        
+
         <ul class="json-gen item-list">
           <!-- we'll be generating the fittips document download list here -->
         </ul>
@@ -58,8 +58,8 @@
 <!-- end tminclude -->
       <div class="clear"></div>
     </div>
-    
-    <div class="footer">  
+
+    <div class="footer">
       <p style="float:right;">Copyright &#169; 2014 Baltimore Fitness Academy</p>
     </div>
   </div>
@@ -72,7 +72,7 @@
   <script src="https://code.jquery.com/jquery.js"></script>
   <script>
     // print out menu automatically for these pages...
-    $.getJSON('json/exerciseclips.json', function(data) { 
+    $.getJSON('json/exerciseclips.json', function(data) {
       $.each(data.exerciseclips, function(data) {
         $('ul.json-gen').append('<li><a href="' + this["link"] + '"><img src="images/clips/' + this["thumb"] + '" /> ' + this["name"] + '</a></li>');
       });
@@ -85,10 +85,10 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  
+
     ga('create', 'UA-48215622-1', 'bmorefit.net');
     ga('send', 'pageview');
-  
+
   </script>
   <!-- /end google analytics -->
 

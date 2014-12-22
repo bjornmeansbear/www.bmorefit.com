@@ -21,10 +21,18 @@ table, td, th {vertical-align:middle;}
 blockquote:before, blockquote:after, q:before, q:after {content:"";}
 blockquote, q {quotes:"" "";}
 a img {border:none;}
-img { max-width: 100%; }
+img {
+  max-width: 100%;
+}
+.bio img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
 
 /* typography.css */
-body {font-size:75%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+body {font-size:80%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#5B1269;}
 h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
 h2 {font-size:2em;margin-bottom:0.75em;}
@@ -264,25 +272,38 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
   height:266px;
   background: transparent url('../images/trialheader2.jpg') -222px center no-repeat;
   border-bottom: 2px solid rgba(91,18,105,1);
-  }
-.content   {padding-top:32px;min-height:500px;}
+}
+
+.content   {
+  padding-top:32px;
+  min-height:500px;
+  margin-left: 40px;
+}
+
 .navcol    {
   width: 138px;
 }
 
 .logocol {
   position: relative;
+  height:266px;
+  border-bottom: 2px solid rgba(91,18,105,1);
+  margin-right: 0px !important;
+  padding-right: 10px;
 }
+
 .logocol > a {
   margin: 0;
   display: block;
   text-align: center;
   background: #F9F9F9;
-  padding-top: 30px;
+  padding-top: 10px;
 }
+
 h1.logo {
-  height:292px;
+  height:246px;
   background:url('../images/bmorefit_logo_large.gif') center center no-repeat;
+  background-size: contain;
   text-indent:-9999px;
   overflow:hidden;
 }
@@ -338,7 +359,7 @@ h2.border-bottom { margin-top: 2em; }
 /* BMoreFit Updates (by Kristian Bjornard kb@ookb.co) */
 
 p.lead {
-  font-size: 1.33em;
+  font-size: 1.25em;
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: .75em;
@@ -356,7 +377,7 @@ p.lead {
 }
 
 .faculty.bio {
-  margin: 30px 0;
+  margin: 20px 0;
   padding-top: 15px;
 }
 
@@ -364,7 +385,7 @@ p.lead {
   float: left;
   width: 50%;
   padding-top: 0;
-  height: 280px;
+  height: 330px;
   overflow: hidden;
 }
 
@@ -594,7 +615,7 @@ dl.item-list {
   margin: .5em 0 2em 0;
   padding: 0;
   list-style: none;
-  font-size: 1.5em;
+  font-size: 1.11111em;
 }
 
 ul.item-list li,
@@ -619,7 +640,8 @@ ul.item-list li img { display: inline-block; vertical-align: middle; margin-righ
 
 .faculty .headshot {
   float:left;
-  margin:.4em 1.5em 0 0
+  margin:.4em 1.5em 0 0;
+  width: 222px;
 }
 
 ul.board,
@@ -666,11 +688,11 @@ a.btn:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-ul.partners li a .fa {
+ul.funders li a .fa {
   visibility: hidden;
 }
 
-ul.partners li:hover a .fa {
+ul.funders li:hover a .fa {
   visibility: visible;
 }
 
