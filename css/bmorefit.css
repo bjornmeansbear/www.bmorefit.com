@@ -2,8 +2,6 @@
 
 /*****/
 
-html, body { background: #666; }
-
 .border-bottom { border-bottom: 3px solid #666; }
 
 .add-top    { padding-top: 30px; }
@@ -121,4 +119,9 @@ h1.border-bottom {
 .navcol .nav-pills>li.active>a:hover,
 .navcol .nav-pills>li.active>a:focus {
   cursor: default;
+}
+
+.hero {
+  background: purple;
+  height: 300px;
 }
