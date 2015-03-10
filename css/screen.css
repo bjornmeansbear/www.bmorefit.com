@@ -353,7 +353,8 @@ p        {font-size:1.083em;line-height:1.385em;color:#525252;}
   max-width: 100%;
 }
 
-.border-bottom { border-bottom: 3px solid #666; }
+.border-top    { border-top: 3px solid #666;    padding-top: 1em;    }
+.border-bottom { border-bottom: 3px solid #666; padding-bottom: 1em; }
 h2.border-bottom { margin-top: 2em; }
 
 /* BMoreFit Updates (by Kristian Bjornard kb@ookb.co) */
