@@ -15,6 +15,13 @@
   padding-bottom: 60px;
 }
 
+footer {
+  background: purple;
+  color: white;
+  margin: 3em 0 0;
+  padding: 3em 0;
+}
+
 .footer {
   padding: 30px 0;
 }
@@ -125,4 +132,15 @@ h1.border-bottom {
 .hero {
   background: purple;
   height: 300px;
+}
+
+@media screen and (max-width: 991px) {
+  .logo {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .logo img {
+    max-width: 120px;
+  }
 }
