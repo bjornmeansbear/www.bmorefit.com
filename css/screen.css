@@ -625,19 +625,26 @@ dl.item-list dd {
   border-bottom: 1px solid #999;
 }
 
+ul.item-list li .linkless,
 ul.item-list li a {
   color: #17051B;
   display: block;
-  padding: 6px 10px;
+  padding: 6px 0;
   text-decoration: none;
 }
 
 ul.item-list li a:hover {
   color: #5B1269;
   background: #eee;
+  padding: 6px;
+  border-left: 1px solid #5B1269;
 }
 
-ul.item-list li img { display: inline-block; vertical-align: middle; margin-right: 10px; }
+ul.item-list li img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 
 .faculty .headshot {
   float:left;
