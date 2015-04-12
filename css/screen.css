@@ -1,4 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic);
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.ptmono {
+  font-family: 'PT Mono', "Lucida Console", Monaco, monospace;
+}
+.gentium {
+  font-family: 'Gentium Basic', georgia, serif;
+}
+
 
 /* -----------------------------------------------------------------------
 
@@ -267,7 +285,7 @@ body {background:#666 url('../images/bkg.jpg') left top repeat-x;}
 .footer {margin-left:-14px;width:938px;background:#666 url('../images/footer_bkg.gif') left top no-repeat;padding:30px 0 40px;}
 .footer p {float:right;color:#232323;}
 
-.header    {
+.header  {
   height:266px;
   background: transparent url('../images/trialheader2.jpg') -222px center no-repeat;
   border-bottom: 2px solid rgba(91,18,105,1);
@@ -764,6 +782,59 @@ section h3 {
 }
 
 /** Dancewalk stuff **/
+.homepage header,
+.dancewalk header {
+  border-bottom: 2px solid rgba(91,18,105,1);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.homepage header img,
+.dancewalk header img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.homepage header a,
+.dancewalk header a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-decoration: none;
+  border: none;
+}
+
 .dancewalk .content {
   font-size: 150%;
+}
+
+.dancewalk .content ul {
+  list-style: none;
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+.dancewalk .content ul li p {
+  margin-bottom: 0;
+}
+
+.border-btn {
+  font-style: normal;
+  font-weight: normal;
+  display: block;
+  border: 3px solid;
+  border-radius: 0.4em;
+  padding: 0.4em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dancewalk .border-btn {
+  color: #571165;
+  font-size: 1.6em;
+  width: 100%;
 }
