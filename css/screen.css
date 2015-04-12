@@ -354,6 +354,10 @@ p        {font-size:1.083em;line-height:1.385em;color:#525252;}
 
 .border-top    { border-top: 3px solid #666;    padding-top: 1em;    }
 .border-bottom { border-bottom: 3px solid #666; padding-bottom: 1em; }
+.text-center,
+.center-text {
+  text-align: center;
+}
 h2.border-bottom { margin-top: 2em; }
 
 /* BMoreFit Updates (by Kristian Bjornard kb@ookb.co) */
@@ -757,4 +761,9 @@ section h3 {
 
 #tribute table {
   border-bottom: 1px solid #ddd;
+}
+
+/** Dancewalk stuff **/
+.dancewalk .content {
+  font-size: 150%;
 }
