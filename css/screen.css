@@ -784,9 +784,11 @@ section h3 {
 /** Dancewalk stuff **/
 .homepage header,
 .dancewalk header {
+  background: white;
   border-bottom: 2px solid rgba(91,18,105,1);
   margin: 0;
   padding: 0;
+  text-align: center;
   width: 100%;
 }
 
