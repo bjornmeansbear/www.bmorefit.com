@@ -845,3 +845,21 @@ section h3 {
   font-size: 1.6em;
   width: 100%;
 }
+
+/** New unitedway stuff **/
+.unitedway {
+  border-top: 1px solid #ccc;
+  margin-top: 2em;
+  padding-top: 2em;
+}
+.unitedway img,
+.unitedway p {
+  float: left;
+  width: 50%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.unitedway p {
+  padding: 1em;
+}
