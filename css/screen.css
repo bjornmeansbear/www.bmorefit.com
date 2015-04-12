@@ -800,6 +800,11 @@ section h3 {
   width: 100%;
 }
 
+.dancewalk header.demo { padding-top: 400px; }
+.dancewalk header.demo img {
+  margin-bottom: 400px;
+}
+
 .homepage header a,
 .dancewalk header a {
   display: block;
