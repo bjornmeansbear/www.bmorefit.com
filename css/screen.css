@@ -788,7 +788,6 @@ section h3 {
   border-bottom: 2px solid rgba(91,18,105,1);
   margin: 0;
   padding: 0;
-  text-align: center;
   width: 100%;
 }
 
@@ -798,11 +797,6 @@ section h3 {
   margin: 0;
   padding: 0;
   width: 100%;
-}
-
-.dancewalk header.demo { padding-top: 400px; }
-.dancewalk header.demo img {
-  margin-bottom: 400px;
 }
 
 .homepage header a,
