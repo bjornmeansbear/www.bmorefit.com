@@ -4,6 +4,8 @@
 @import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
+/** some google font stuff **/
+
 .oswald {
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
@@ -785,6 +787,7 @@ section h3 {
 }
 
 /** Dancewalk stuff **/
+/** hopefully github recognizes these changes now? **/
 .homepage header,
 .dancewalk header {
   background: white;
