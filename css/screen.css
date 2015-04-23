@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=PT+Mono);
 @import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 .oswald {
   font-family: 'Oswald', sans-serif;
@@ -16,7 +17,9 @@
 .gentium {
   font-family: 'Gentium Basic', georgia, serif;
 }
-
+.lobster {
+  font-family: 'Lobster', cursive;
+}
 
 /* -----------------------------------------------------------------------
 
@@ -809,6 +812,10 @@ section h3 {
   border: none;
 }
 
+.dancewalk .intro * {
+  margin-bottom: 0;
+}
+
 .dancewalk .content {
   font-size: 150%;
 }
@@ -824,6 +831,7 @@ section h3 {
 }
 
 .border-btn {
+  box-sizing: border-box;
   font-style: normal;
   font-weight: normal;
   display: block;
@@ -838,6 +846,40 @@ section h3 {
   color: #571165;
   font-size: 1.6em;
   width: 100%;
+  margin-bottom: 1em;
+}
+
+.dancewalk .decorative-border {
+  background: #d8c6dd;
+  border: 2px solid  #571165;
+  border-radius: 0.4em;
+  box-shadow: 4px 4px 4px rgba(0,0,0,.3);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em;
+}
+
+.dancewalk .decorative-text {
+  font-size: 200%;
+  color: #571165;
+  margin-top: -.5em;
+  margin-bottom: 1em;
+}
+
+.dancewalk h3.lobster {
+  font-size: 300%;
+  margin: .5em 0;
+  color: #7aceee;
+  text-shadow:
+    2px 2px 2px rgba(0,0,0,.33),
+   -1px -1px 0 #571165,
+    1px -1px 0 #571165,
+    -1px 1px 0 #571165,
+     1px 1px 0 #571165;
+}
+
+.dancewalk .lastthing {
+  margin-bottom: 2em;
 }
 
 /** New unitedway stuff **/
