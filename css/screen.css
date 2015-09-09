@@ -330,6 +330,34 @@ h1.logo {
   overflow:hidden;
 }
 
+.homepage header { position: relative; }
+.homepage h1.logo {
+  background:url('../images/BmoreFit-padded-logo.jpg') center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 99;
+  width: 33%;
+  height: 80%;
+  top: 10%;
+}
+.homepage h2.tagline {
+  position: absolute;
+  z-index: 99;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 1.5em;
+  padding-right: 7%;
+  padding-left: 7%;
+  font-size: 500%;
+  line-height: 1;
+  color: white;
+  text-shadow: 0 0 .5em rgba(0,0,0,.8);
+}
+
 h1       {font-size:2.3em;font-weight:bold;letter-spacing:-.01em;color:#571165;}
 h2       {font-size:1.33em;font-weight:bold;}
 p        {font-size:1.083em;line-height:1.385em;color:#525252;}
