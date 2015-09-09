@@ -330,6 +330,7 @@ h1.logo {
   overflow:hidden;
 }
 
+/** temporary update **/
 .homepage header { position: relative; }
 .homepage h1.logo {
   background:url('../images/BmoreFit-padded-logo.jpg') center center no-repeat;
